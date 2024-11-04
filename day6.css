@@ -1,0 +1,29 @@
+.header-example{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    gap: 12px;
+
+
+
+    li{
+        background-color: red;
+    }
+
+
+
+}
+
+
+
+
+
+
+/* DRY  -  DO NOT  REPEAT  YOURSELF */
