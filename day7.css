@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.instagram-form {
+
+    border: 1px solid black;
+    width: 30%;
+
+    /* height: 200px; */
+
+    /* padding: 3rem; */
+
+    /* 1rem   =  16px */
+
+    padding: 0 1.5rem;
+
+    h1 {
+        text-align: center;
+        /* margin-top: 80px; */
+        padding: 2rem;
+
+
+
+
+    }
+
+
+   
+
+
+
+}
+
+
+
+.instagram-input-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.instagram-facebook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+
+.instagram-or::before {
+    content: '';
+    position: absolute;
+    width: 42%;
+    height: 1px;
+    background-color: rgb(78, 78, 78);
+    top: 8px;
+    left: 0;
+    border-radius: 4px;
+}
+
+
+.instagram-or::after {
+    content: '';
+    position: absolute;
+    width: 42%;
+    height: 1px;
+    background-color: rgb(78, 78, 78);
+    top: 8px;
+    right: 0;
+    border-radius: 4px;
+}
+
+
+
+
+.signup-input{
+    padding: 6px;
+    border: 1px solid gray;
+
+    width: 100%;
+
+    border-radius: 2px;
+
+}
+
+
+.signup-input::placeholder{
+    font-size: 10px;
+}
+
+
+
+
+button{
+    width: 100%;
+    background-color: rgb(14, 169, 231);
+    color: white;
+    padding: 4px;
+    border-radius: 4px;
+    border: none;
+}
