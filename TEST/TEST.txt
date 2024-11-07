@@ -1,0 +1,13 @@
+QNO 1: 
+
+Create a table using HTML5 and CSS3, table includes 4 column. NAME, AGE, ADDRESS and CNIC.
+
+
+QNO 2:
+
+Create a form which includes a LOGO, username, email, password, confirm password, male female and a button 
+
+
+QNO 3:
+
+Create a header and footer - between them there should be table. use CSS and HTML5
