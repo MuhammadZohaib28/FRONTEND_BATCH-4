@@ -57,7 +57,7 @@
 
 
 .table {
-
+    border-collapse: collapse;
     width: 50%;
     margin: 0 auto;
     border-radius: 0.5rem;
@@ -66,7 +66,7 @@
 
 
 .table-head {
-    /* background-color: #f60000; */
+    background-color: #81c45d;
     padding: 1rem 0;
     text-align: left;
     border-radius: 0.5rem;
@@ -83,9 +83,11 @@ th {
 tr {
     /* background-color: #d2d2d2; */
 
+    background-color: rgb(232, 232, 232);
+
 }
 
 td {
-    padding: 1rem 0;
+    padding: 1rem 0.3rem;
     font-size: 1.2rem;
 }
