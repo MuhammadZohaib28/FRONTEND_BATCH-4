@@ -1,0 +1,5 @@
+Create a program which prints any number -  for example 2 x 1 = 2 
+
+Create a program which can tell us about temperature  -  for example - temp agar 32 hai tou sunny  25 hai tou cold 40 hai tou hot show karay
+
+Create a program which tells about students grades based on numbers.
