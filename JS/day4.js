@@ -60,6 +60,18 @@ const nsfStudentData = {
     weight: 70,
     cnic: 1234567,
     isStudent: true,
+    picture: "https://www.google.com/images",
+    link: "https://www.google.com",
+
 }
 
-console.log(nsfStudentData.name)
+nsfStudentData["marks"] = 872;
+nsfStudentData.bloodGroup = "B+";
+
+console.log(Object.keys(nsfStudentData), "YEH OBJECT KI KEYS HAIN")
+
+
+console.log(Object.values(nsfStudentData), "YEH OBJECT KI VALUES HAIN")
+
+
+console.log(Object.entries(nsfStudentData), "YEH OBJECT KI ENTRIES HAIN")
